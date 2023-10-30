@@ -1,0 +1,158 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5.2rem 1.5rem;
+  max-width: 69.5rem;
+}
+
+@media (max-width: 800px) {
+  article {
+    max-width: 19.5rem;
+  }
+}
+.tool-wrapper {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+}
+
+@media (max-width: 800px) {
+  .tool-wrapper {
+    grid-template-columns: 1fr;
+    margin-top: 4.7rem;
+    gap: 1.5rem;
+  }
+}
+.tool-container {
+  background-color: white;
+  box-shadow: 0 10px 15px 0 hsl(229, 6%, 66%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 1.8rem 2rem;
+}
+.tool-container p {
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.tool-container h2 {
+  font-size: 1.3rem;
+}
+
+.tool-container-2row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 800px) {
+  .tool-container {
+    gap: 2.4rem;
+    padding: 1.2rem 1.9rem;
+  }
+  .tool-container p {
+    margin-top: 0.3rem;
+  }
+  .tool-container-2row {
+    gap: 1.5rem;
+  }
+}
+.supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+/*text formatting*/
+h1,
+h2 {
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 2.5vw;
+  line-height: 2.4rem;
+  max-width: 40%;
+  text-align: center;
+}
+h1 span {
+  font-weight: 600;
+}
+
+.main-paragraph {
+  width: 70%;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  max-width: 40%;
+}
+
+@media (max-width: 800px) {
+  .main-paragraph {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
